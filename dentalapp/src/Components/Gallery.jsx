@@ -1,13 +1,13 @@
 import React from 'react';
-import img1 from "../Assets/wp2/12.png"
-import img2 from "../Assets/wp2/11.png"
-import img3 from "../Assets/wp2/10.png"
-import img4 from "../Assets/wp2/9.png"
-import img5 from "../Assets/wp2/8.png"
+import img1 from "../Assets/toothMachine/4.png"
+import img2 from "../Assets/toothMachine/5.png"
+import img3 from "../Assets/toothMachine/6.png"
+import img4 from "../Assets/toothMachine/7.png"
+import img5 from "../Assets/toothMachine/8.png"
 
 const Gallery = () => {
     return (
-        <div className='max-w-[1400px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4'>
+        <div className='max-w-[1440px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4'>
             {/* Left Side */}
             <div className='grid grid-cols-2 grid-rows-6 h-[80vh]'>
                 <img

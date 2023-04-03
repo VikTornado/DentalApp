@@ -4,11 +4,11 @@ import {AiFillPhone, AiOutlineClockCircle} from "react-icons/ai";
 
 const TopBar = () => {
     return (
-        <div className={"w-full h-full px-4"}>
-            <div className={"max-w-[1640px] flex m-auto items-center justify-between py-2"}>
+        <div className={"w-full h-full px-2"}>
+            <div className={"max-w-[1440px] flex m-auto items-center justify-between py-2"}>
                 <div className={"flex items-center"}>
                     <FaTooth size={30} className={"mx-4"}/>
-                    <h1 className={"uppercase text-xl font-bold text-gray-700"}>Dental</h1>
+                    <h1 className={" text-xl font-bold text-gray-700"}>Dr.Zavydniak</h1>
                 </div>
                 <div className={"sm:flex"}>
                     <div className={" flex items-center px-4 "}>

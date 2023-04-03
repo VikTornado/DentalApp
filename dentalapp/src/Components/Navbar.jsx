@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div className={"w-full z-10 text-white bg-gray-700/80 absolute"}>
             <div
-                className={"max-w-[1640px] min-h-[50px] flex m-auto justify-between items-center"}>
+                className={"max-w-[1440px] min-h-[50px] flex m-auto justify-between items-center"}>
                 <ul className={"hidden sm:flex px-4"}>
                     <li>
                         <a href="#home">Головна</a>
@@ -24,9 +24,6 @@ const Navbar = () => {
                     </li>
                     <li>
                         <a href="#gallery">Фотогалерея</a>
-                    </li>
-                    <li>
-                        <a href="#aboutus">Про&nbsp;нас</a>
                     </li>
                     <li>
                         <a href="#contacts">Контакти</a>
