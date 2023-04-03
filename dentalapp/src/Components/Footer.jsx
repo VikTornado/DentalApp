@@ -28,7 +28,7 @@ const Footer = () => {
                 <div>
                     <h6 className='font-bold uppercare pt-2'>Company</h6>
                     <ul>
-                        <li className='py-1'>About</li>
+                        <li id={"home"} className='py-1 cursor-pointer'>About</li>
                         <li className='py-1'>Blog</li>
                         <li className='py-1'>Jobs</li>
                         <li className='py-1'>Press</li>

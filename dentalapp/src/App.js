@@ -6,17 +6,17 @@ import AboutUs from "./Components/AboutUs";
 import Contacts from "./Components/Contacts";
 import Gallery from "./Components/Gallery";
 import Footer from "./Components/Footer";
-import Services from "./Components/Services";
+import SlickSlider from "./Components/SlickSlider";
 
-function App() {
+function App(props) {
     return (
         <div>
             <TopBar/>
             <Navbar/>
             <Hero/>
             <AboutUs/>
-            <Services/>
             <Gallery/>
+            <SlickSlider state={props.state}/>
             <Contacts/>
             <Footer/>
         </div>
