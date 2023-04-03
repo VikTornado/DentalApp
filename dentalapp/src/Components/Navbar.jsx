@@ -12,28 +12,26 @@ const Navbar = () => {
         <div className={"w-full z-10 text-white bg-gray-700/80 absolute"}>
             <div
                 className={"max-w-[1640px] min-h-[50px] flex m-auto justify-between items-center"}>
-                <div className={""}>
-                    <ul className={"hidden sm:flex px-4"}>
-                        <li>
-                            <a href="#home">Головна</a>
-                        </li>
-                        <li>
-                            <a href="#services">Послуги</a>
-                        </li>
-                        <li>
-                            <a href="#specialties">Спеціалісти</a>
-                        </li>
-                        <li>
-                            <a href="#gallery">Фотогалерея</a>
-                        </li>
-                        <li>
-                            <a href="#aboutus">Про&nbsp;нас</a>
-                        </li>
-                        <li>
-                            <a href="#contacts">Контакти</a>
-                        </li>
-                    </ul>
-                </div>
+                <ul className={"hidden sm:flex px-4"}>
+                    <li>
+                        <a href="#home">Головна</a>
+                    </li>
+                    <li>
+                        <a href="#services">Послуги</a>
+                    </li>
+                    <li>
+                        <a href="#specialties">Спеціалісти</a>
+                    </li>
+                    <li>
+                        <a href="#gallery">Фотогалерея</a>
+                    </li>
+                    <li>
+                        <a href="#aboutus">Про&nbsp;нас</a>
+                    </li>
+                    <li>
+                        <a href="#contacts">Контакти</a>
+                    </li>
+                </ul>
                 <div className={" flex justify-between px-4"}>
                     <FaFacebookF className={"mx-4"}/>
                     <FaInstagram className={"mx-4"}/>
