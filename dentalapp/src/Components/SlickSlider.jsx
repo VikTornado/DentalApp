@@ -152,23 +152,18 @@ const SlickSlider = (props) => {
         ]
     };
     return (
-        <div id={"gallery"} className={'w-full h-full p-4 pb-16'}>
+        <div id={"gallery"} className={'w-full h-full p-4 pb-16 '}>
             <h2 className={'text-5xl font-bold text-center pb-14'}>Наша робота</h2>
             <div className={'max-w-[80%] m-auto'}>
-                <Slider {...settings} >
+                <Slider {...settings}>
                     {state.map((item, id) => {
                         return (
-                            <div className={'grid'}>
-                                <div>
-                                    <img className={'w-[450px] h-[550px] object-cover m-auto px-4 py-6 shadow-md'}
+                            <div className={''}>
+                                <div className={'pb-6'}>
+                                    <img className={'max-w-[450px] max-h-[550px] flex object-cover m-auto py-6 shadow-md'}
                                          key={item.id}
                                          src={item.image}
                                          alt={item.title}/>
-                                </div>
-                                <div className={'flex flex-col items-center pb-16'}>
-                                    <h2>{item.title}</h2>
-                                    <h3>{item.releaseDate}</h3>
-                                    <p>{item.__typename}</p>
                                 </div>
                             </div>
                         )

@@ -32,8 +32,8 @@ const Gallery = () => {
                 />
             </div>
             {/* Right Side */}
-            <div className='flex flex-col h-full justify-center'>
-                <h3 className='text-5xl md:text-6xl font-bold'>СТОМАТОЛОГІЯ В УЖГОРОДІ!</h3>
+            <div className='flex flex-col h-full justify-center px-4'>
+                <h3 className='text-3xl md:text-4xl font-bold'>СТОМАТОЛОГІЯ В УЖГОРОДІ!</h3>
                 <p className='text-2xl py-6'>
                     Вітаю на сторінці нашої стоматологічної клініки!
                 </p>

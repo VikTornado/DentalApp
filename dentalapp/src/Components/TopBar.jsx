@@ -13,11 +13,11 @@ const TopBar = () => {
                 <div className={"sm:flex"}>
                     <div className={" flex items-center px-4 "}>
                         <AiOutlineClockCircle className={"text-blue-700 mx-2"}/>
-                        <p className={"text-sm text-gray-700"}>9AM- 6PM</p>
+                        <p className={"text-sm text-gray-700"}>8:00 - 19:00</p>
                     </div>
                     <div className={"flex flex items-center px-4"}>
                         <AiFillPhone className={"text-blue-700 mr-2"}/>
-                        <p className={"text-sm text-gray-700"}>1-222-333-444</p>
+                        <p className={"text-sm text-gray-700"}>+38 095 639 1179</p>
                     </div>
                 </div>
             </div>

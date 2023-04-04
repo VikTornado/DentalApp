@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaFacebookF, FaInstagram, FaTelegram, FaViber, FaWhatsapp} from "react-icons/fa";
+import {FaFacebookF, FaInstagram, FaViber, FaWhatsapp} from "react-icons/fa";
 import {FiMenu, FiX} from "react-icons/fi";
 
 const Navbar = () => {
@@ -17,9 +17,6 @@ const Navbar = () => {
                         <a href="#home">Головна</a>
                     </li>
                     <li>
-                        <a href="#services">Послуги</a>
-                    </li>
-                    <li>
                         <a href="#specialties">Спеціалісти</a>
                     </li>
                     <li>
@@ -30,11 +27,11 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <div className={" flex justify-between px-4"}>
-                    <FaFacebookF className={"mx-4"}/>
-                    <FaInstagram className={"mx-4"}/>
-                    <FaViber className={"mx-4"}/>
-                    <FaTelegram className={"mx-4"}/>
-                    <FaWhatsapp className={"mx-4"}/>
+                    <a href="https://facebook.com/"> <FaFacebookF className={"mx-4"}/></a>
+                    <a href="https://instagram.com/"> <FaInstagram className={"mx-4"}/></a>
+                    <a href="viber://chat?number=+380956391179"> <FaViber className={"mx-4"}/> </a>
+                    <a href="whatsapp://send?phone=+380956391179"> <FaWhatsapp className={"mx-4"}/></a>
+
                 </div>
                 <div onClick={handleNav} className={"sm:hidden z-10 text-white"}>
                     {nav ? <FiMenu size={30} className={"mr-4 cursor-pointer"}/> :
@@ -48,9 +45,6 @@ const Navbar = () => {
                     <ul className={"h-full w-full text-center pt-12"}>
                         <li className={"text-2xl py-8"}>
                             <a href="#home">Головна</a>
-                        </li>
-                        <li className={"text-2xl py-8"}>
-                            <a href="#services">Послуги</a>
                         </li>
                         <li className={"text-2xl py-8"}>
                             <a href="#specialties">Спеціалісти</a>

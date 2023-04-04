@@ -3,8 +3,8 @@ import HeroWP from "../Assets/wp23/2.png"
 
 const Hero = () => {
     return (
-        <div id={"home"} className={"w-full h-[90vh]"}>
-            <img src={HeroWP} className={"w-full h-full object-cover"}/>
+        <div id={"home"} className={"w-full h-[100vh]"}>
+            <img src={HeroWP} className={"w-full h-full object-cover"} alt={""}/>
             <div className={"max-w-[1440px] m-auto"}>
                 <div
                     className={"absolute top-[35%] w-full md:-[50%] max-w-[600px] h-full flex flex-col px-4 mx-4 text-black"}>
