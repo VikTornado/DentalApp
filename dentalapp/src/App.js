@@ -7,6 +7,7 @@ import Contacts from "./Components/Contacts";
 import Gallery from "./Components/Gallery";
 import Footer from "./Components/Footer";
 import SlickSlider from "./Components/SlickSlider";
+import FormPage from "./Components/FormPage";
 
 function App(props) {
     return (
@@ -18,6 +19,7 @@ function App(props) {
             <Gallery/>
             <SlickSlider state={props.state}/>
             <Contacts/>
+            <FormPage/>
             <Footer/>
         </div>
     );
