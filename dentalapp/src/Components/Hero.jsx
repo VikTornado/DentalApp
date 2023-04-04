@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroWP from "../Assets/wp23/2.png"
+import HeroWP from "../Assets/wp23/3.jpg"
 
 const Hero = () => {
     return (

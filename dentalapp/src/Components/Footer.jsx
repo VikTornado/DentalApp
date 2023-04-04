@@ -7,8 +7,8 @@ const Footer = () => {
 
             <div className='flex flex-col max-w-[1400px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500'>
                 <div className={"flex flex-col py-4"}>
-                    <p className='left-0'>вул. Василя Балога, 2з., Uzhhorod, Ukraine</p>
-                    <p className='left-0'>+38095 639 1179</p>
+                    <p className='left-0'>вул. Василя Балога, 2з., Ужгород, Україна</p>
+                    <p className='left-0'>мобільний телефон: +38095 639 1179</p>
                 </div>
                 <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
                     <a href="https://facebook.com/"> <FaFacebookF/></a>

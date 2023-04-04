@@ -1,9 +1,9 @@
 import React from 'react';
-import img1 from "../Assets/toothMachine/4.png"
-import img2 from "../Assets/toothMachine/5.png"
-import img3 from "../Assets/toothMachine/6.png"
-import img4 from "../Assets/toothMachine/7.png"
-import img5 from "../Assets/toothMachine/8.png"
+import img1 from "../Assets/toothMachine/4.jpg"
+import img2 from "../Assets/toothMachine/5.jpg"
+import img3 from "../Assets/toothMachine/6.jpg"
+import img4 from "../Assets/toothMachine/7.jpg"
+import img5 from "../Assets/toothMachine/8.jpg"
 
 const Gallery = () => {
     return (

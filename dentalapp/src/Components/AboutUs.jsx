@@ -1,7 +1,7 @@
 import React from 'react';
-import img1 from "../Assets/2.png"
-import img2 from "../Assets/1.png"
-import img3 from "../Assets/3.png"
+import img1 from "../Assets/Doctors/2.jpg"
+import img2 from "../Assets/Doctors/1.jpg"
+import img3 from "../Assets/Doctors/3.jpg"
 
 const AboutUs = () => {
     const images = [
@@ -14,7 +14,7 @@ const AboutUs = () => {
             {images.map((item, id) => {
                 return (
                     <div
-                        className={"relative w-[50%] m-auto flex items-center justify-center h-auto w-full shadow-xl border-2 shadow-gray-400" +
+                        className={"relative w-[50%] m-auto flex items-center justify-center h-auto w-full drop-shadow-2xl border-2 shadow-gray-400" +
                             "rounded-xl group hover:bg-gradient-to-r from-gray-300 to-[#001b5e] md:w-[75%] flex"}>
                         <img className={'h-full w-full group-hover:opacity-10 bg-cover bg-center border-4'} key={id}
                              src={item.img} alt=""/>
